@@ -178,7 +178,7 @@ resource "aws_s3_bucket_replication_configuration" "s3_replication" {
   ]
 }
 
-resource "null_resource" "config" {
+resource "null_resource" "copy_sample" {
   # triggers = {
   #   always_run = timestamp()
   # }
